@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif; 
+    color: rgba(80, 95, 152, 1);
+    width: 165rem;
+}
+
+/********************************** HEADER  ********************************/
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.container-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    width: 15%;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: block;
+}
+
+.navbar ul li a {
+    display: block;
+    padding-top: 1.6rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    color: rgba(80, 95, 152, 1);
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    width: 15%;
+}
+
+.logo h2 {
+    color: rgba(55, 68, 126, 1);
+    font-size: 2.6rem;
+}
+
+.btn-buynow button {
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: #ffffff; 
+   background-color: #111b47;
+   width: 16rem;
+   height: 2.6rem;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+/****************************** MAIN  ***************************************/
+
+.wrapper-cta {
+    width: 100%;
+    padding-left: 13.86rem;
+
+}
+
+.container-cta {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box-article {
+    width: 50%;
+    margin-top: 15rem;
+}
+
+.box-img {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta {
+    width: 80%;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+    color: #111b47;
+}
+
+.cta p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cta button {
+    margin-top: 10rem;
+    margin-right: 5rem;
+    width: 19rem;
+    height: 3.6rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: #111b47;
+    border: none;
+    border-radius: 3px;
+}
+
+.cta button+button {
+    background-color: transparent;
+    border: 2px solid #111b47;
+    color: #111b47;
+}
+
+.wrapper-main {
+    margin-top: 25rem;
+    width: 100%;
+    padding-right: 13.86rem;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 75rem;
+}
+
+.content {
+    width: 90%;
+}
+
+.content h3 {
+    font-size: 3.6rem;
+    color: #111b47;
+    margin-bottom: 3rem;
+}
+
+.content p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.item {
+    display: block;
+    width: 45%;
+    margin: 3rem auto;
+}
+
+.item p {
+    font-size: 1.2rem;
+}
